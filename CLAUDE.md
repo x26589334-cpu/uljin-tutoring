@@ -12,7 +12,7 @@
 ## 이 사이트만의 구조
 | 파일 | 내용 |
 |---|---|
-| `index.html` | 홈 (히어로 SVG = pine-lighthouse 모티프) |
+| `index.html` | 홈 (히어로 SVG = undefined 모티프) |
 | `schools.html` | 울진 초·중·고 26곳 목록 + 검색 |
 | `school/*.html` | **학교별 정적 페이지 26개** — SEO 의 핵심. 학교당 국어·영어·수학·사회·과학·코딩 키워드 |
 | `teachers.html` | 선생님 (화상 673명 — 울진 방문 선생님이 0명이라 방문 관련 내용은 감춰져 있다) |
