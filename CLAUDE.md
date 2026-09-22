@@ -13,6 +13,7 @@
 - 도메인: **nadofollow.co.kr** (가비아, 2026-09-21 연결). `CNAME` 파일 있음 · 주소 `https://nadofollow.co.kr/`
 - 도메인을 바꿀 때: `사이트관리/도구/지역과외/regions.js` 의 `domain` 을 고치고 재생성 → 사이트 안 주소(sitemap·canonical·og:url·robots)와 `CNAME` 이 같이 바뀐다. GitHub Pages 설정의 Custom domain 도 맞출 것
 - GA4 측정 ID 미발급. `analytics.js` 의 `GA_ID` 가 비어 있어 지금은 아무것도 보내지 않는다. 발급하면 그 한 줄만 채우고 `사이트관리/사이트대장.md` 10절에 적는다.
+- 검색엔진 소유확인 메타는 `index.html` `<head>` 에 손으로 넣었다 (2026-09-22): 네이버 `1bf9c137c2e690a98f4a2f428e3b06663b15d941`, 구글 `iTap7ga4pUy0S9kUAslc_fKngaCS7ul2Zk028LXfehM`. **생성기를 다시 돌리면 덮어써지니** 재생성 후에는 두 줄을 다시 넣거나, 생성기(`regions.js`)의 `verify:{naver,google}` 에 적어 둘 것.
 
 ## 이 사이트만의 구조
 | 파일 | 내용 |
